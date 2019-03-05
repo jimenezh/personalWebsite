@@ -11,6 +11,19 @@ a{
 	color: rgb(0, 162, 104);
 }
 
+iframe{
+	width: 50%;
+	float-left;
+}
+
+ul.features, ul.features > li{
+	list-style-type: circle;
+}
+
+li{
+	margin-left: 20px;
+}
+
 .nav, .nav-content, .tabs, .tabs .tab {
 	height: 100%;
 	background-color: rgb(0, 162, 104);
@@ -32,11 +45,6 @@ a{
 	min-height: 100%;
  
 }
-
-/*.container:nth-child(even){
-	background-color: rgb(0, 162, 104);
-	color: white;
-}*/
 
 .container{
 	margin: 0;
@@ -70,5 +78,9 @@ a{
 	background-position: right;
 }
 #welcomeTextParagraph{
+	color: white;
+}
+#backgroundAbout{
+	background-color: rgb(0, 162, 104);
 	color: white;
 }
