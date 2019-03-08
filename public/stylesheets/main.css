@@ -13,7 +13,9 @@ a{
 
 iframe{
 	width: 50%;
-	float-left;
+	height: 400px;
+	float: left;
+	margin-top: 15px;
 }
 
 ul.features, ul.features > li{
@@ -83,4 +85,9 @@ li{
 #backgroundAbout{
 	background-color: rgb(0, 162, 104);
 	color: white;
+}
+
+
+#textGeneratorHeading{
+	float: right;
 }
