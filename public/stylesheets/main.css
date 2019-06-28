@@ -1,4 +1,4 @@
-*, .row .col {
+*, div.row, .row .col {
 	margin: 0;
 	padding: 0;
 }
@@ -28,7 +28,11 @@ ul:not(.browser-default)>li{
 
 h3 {
 	padding-top: 70px;
+	padding-bottom: 0;
+	margin: 0;
 }
+
+
 
 div.container{
 	max-width:100%;
@@ -36,9 +40,9 @@ div.container{
 	margin-bottom: 10px;
 }
 
-.row{
-	margin: 0;
-	padding:0;
+
+.row .col.s6{
+	padding-right: 40px;
 }
 
 .nav, .nav-content, .tabs, .tabs .tab {
@@ -52,8 +56,7 @@ div.container{
 }
 
 .topic{
-	height: 100vh;
-	max-height: 100vh;
+	min-height: 100vh;
 
 }
 
@@ -104,6 +107,10 @@ div.container{
 	float: left;
 }
 
+#firstTitle{
+	margin-top: 0;
+	padding-top: 0;
+}
 
 .container{
 	padding-left: 40px;
